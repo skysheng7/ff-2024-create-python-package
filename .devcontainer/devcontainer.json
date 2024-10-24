@@ -1,1 +1,18 @@
-{"image":"mcr.microsoft.com/devcontainers/universal:2"}
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/devcontainers-extra/features/black:2": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-extra/features/hatch:2": {
+			"version": "latest"
+		},
+		"ghcr.io/rocker-org/devcontainer-features/miniforge:2": {
+			"version": "latest",
+			"variant": "Miniforge3"
+		},
+		"ghcr.io/devcontainers-extra/features/copier:7": {
+			"version": "latest"
+		}
+	}
+}
