@@ -4,6 +4,10 @@ This repo is set up for the pyOpenSci 2024 Open Science Festival. Create a Pytho
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pyOpenSci/ff-2024-create-python-package)
 
+## Create a new package using copier
+
+`copier copy gh:pyopensci/pyos-package-template .`
+
 ## Create a new codespace
 
 1. Click on badge above **Open in GitHub Codespaces**.
