@@ -5,11 +5,23 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/python:1-3.11-bookworm",
 	"features": {
-		"ghcr.io/devcontainers-extra/features/copier:7": {},
-		"ghcr.io/devcontainers-extra/features/hatch:2": {},
+		"ghcr.io/devcontainers-extra/features/copier:7": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-extra/features/hatch:2": {
+			"version": "latest"
+		},
 		"ghcr.io/prulloac/devcontainer-features/pre-commit:1": {},
-		"ghcr.io/devcontainers-extra/features/black:2": {},
-		"ghcr.io/devcontainers-extra/features/isort:2": {}
+		"ghcr.io/devcontainers-extra/features/black:2": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-extra/features/isort:2": {
+			"version": "latest"
+		},
+		"ghcr.io/rocker-org/devcontainer-features/miniforge:2": {
+			"version": "latest",
+			"variant": "Miniforge3"
+		}
 	},
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
