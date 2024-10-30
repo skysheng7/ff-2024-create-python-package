@@ -3,7 +3,7 @@
 
 def add_numbers(num1, num2):
     """A function that adds two numbers together
-    
+
     Parameters
     ----------
     num1 : int
@@ -11,10 +11,10 @@ def add_numbers(num1, num2):
 
     num2 : int
         The second number to add
-    
+
     Return
     ------
         The sum of two numbers
 
     """
-    return (num1 + num2)
+    return num1 + num2

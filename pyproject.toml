@@ -60,3 +60,30 @@ only-packages = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/my_python_package"]
+
+[tool.hatch.envs.test]
+description = """Run the test suite."""
+extra-dependencies = [
+   "pytest",
+   "pytest-cov", 
+]
+
+[[tool.hatch.envs.test.matrix]]
+python = ["3.10", "3.11"]
+
+[tool.hatch.envs.test.scripts]
+run_test = "pytest {args:--cov=mypkg --cov-report=term-missing}"
+
+[tool.hatch.envs.format]
+description = """Format your code."""
+python = "3.11"
+extra-dependencies = [
+  "black",
+  "isort",
+]
+
+[tool.hatch.envs.format.scripts]
+format_code = [
+   "isort .",
+   "black ."
+   ]
