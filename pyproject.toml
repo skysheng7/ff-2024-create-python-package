@@ -11,7 +11,7 @@ requires = ["hatchling"]
 ################################################################################
 
 [project]
-name = "my_python_package"
+name = "my_python_package_SSheng"
 
 version = "0.1.0"
 
@@ -42,8 +42,8 @@ keywords = []
 dependencies = []
 
 [project.urls]
-Documentation = "https://my_python_package.readthedocs.io"
-Download = "https://pypi.org/project/my_python_package/#files"
+Documentation = "https://my_python_package_SSheng.readthedocs.io"
+Download = "https://pypi.org/project/my_python_package_SSheng/#files"
 
 [project.optional-dependencies]
 dev = [
@@ -59,7 +59,7 @@ dev = [
 only-packages = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/my_python_package"]
+packages = ["src/my_python_package_SSheng"]
 
 [tool.hatch.envs.test]
 description = """Run the test suite."""

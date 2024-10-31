@@ -3,10 +3,10 @@
 
 def test_import():
     """Test that the package can be imported."""
-    import my_python_package  # noqa: F401
+    import my_python_package_SSheng  # noqa: F401
 
 
-from my_python_package.add_numbers import add_numbers
+from my_python_package_SSheng.add_numbers import add_numbers
 
 
 def test_add_numbers():
